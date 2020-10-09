@@ -28,6 +28,7 @@ input[type="checkbox"].visually-hidden {
 }
 
 .inner-page {
+  position: relative;
   width: 1200px;
   margin: 0 auto;
   box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
@@ -45,7 +46,7 @@ input[type="checkbox"].visually-hidden {
    HEADER
    ========================================================================== */
 
-.nav-list{
+.nav-list {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -53,7 +54,7 @@ input[type="checkbox"].visually-hidden {
   min-height: 56px;
 }
 
-.nav-link a{
+.nav-link a {
   font-weight: 700;
   color: #000000;
   text-decoration: none;
@@ -61,7 +62,7 @@ input[type="checkbox"].visually-hidden {
   text-align: center;
 }
 
-.nav-link{
+.nav-link {
   box-sizing: border-box;
   width: 239px;
 }
@@ -73,8 +74,8 @@ input[type="checkbox"].visually-hidden {
 .navigation-item-logo {
   position: absolute;
   z-index: 1;
-  left: 530px;
-  top: 0;
+  left: 532px;
+  top: 2px;
 }
 
 .nav-link a {
@@ -111,6 +112,10 @@ input[type="checkbox"].visually-hidden {
    INTRO
    ========================================================================== */
 .title h2 {
+  padding-top: 37px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  width: 500px;
   text-align: center;
   font-weight: bold;
   font-size: 21px;
@@ -118,8 +123,169 @@ input[type="checkbox"].visually-hidden {
 }
 
 .title p {
+  padding-bottom: 50px;
   text-align: center;
   font-weight: normal;
   font-size: 14px;
   line-height: 26px;
+  color: #333333;
 }
+
+.advantage,
+.pluses,
+.reasons {
+  display: flex;
+}
+
+.pluses {
+  background: #EEEEEE;
+}
+
+.info-reasons {
+  height: 330px;
+}
+
+/* ==========================================================================
+   INFO
+   ========================================================================== */
+.info {
+  padding: 50px;
+  box-sizing: border-box;
+  width: 400px;
+  height: 256px;
+}
+
+.info h3 {
+  margin: 0 auto;
+  width: 153px;
+font-weight: bold;
+font-size: 21px;
+line-height: 21px;
+text-align: center;
+}
+
+.info p {
+  padding-top: 24px;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+}
+
+.info-advantage {
+  background: #81B3D2;
+  color: #FFFFFF;
+}
+
+.info-reasons {
+  width: 399px;
+  position: relative;
+}
+
+.img-reasons{
+  position: absolute;
+  left: 30px;
+}
+.info-reasons h3 {
+  margin-top: 120px;
+}
+
+.interested h2{
+  margin: 0 auto;
+  padding-top: 58px;
+font-weight: bold;
+font-size: 30px;
+line-height: 24px;
+text-align: center;
+}
+
+.interested p {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 435px;
+  font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+}
+
+.interested-btn {
+  margin: 0 316px;
+  width: 568px;
+height: 86px;
+background: #766357;
+color: #FFFFFF;
+text-align: center;
+font-weight: bold;
+font-size: 21px;
+line-height: 26px;
+border: none;
+font-family: 'PT Sans', sans-serif;
+text-transform: uppercase;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+   .footer {
+    width: 1200px;
+    min-height: 130px;
+    padding: 0 100px 0 132px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footer-index {
+    position: absolute;
+    bottom: 0;
+  }
+  
+   .footer h3 {
+    width: 180px;
+  }
+  
+  .friends ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .social-button {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: #82b3d3;	
+  }
+  
+  .social-button:hover {
+    background-color: #669ebf;
+  }
+  
+  .social-button:active {
+    filter: brightness(90%);
+  }
+  
+  .copyright {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;	
+  }
+  
+  .copyright p {
+    padding-top: 5px;	
+  }
+  
+  .copyright a {
+    display: block;	
+  }
+  
+  .copyright img {
+    vertical-align: middle;	
+  }
